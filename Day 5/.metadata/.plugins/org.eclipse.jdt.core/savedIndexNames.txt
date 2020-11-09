@@ -1,0 +1,5 @@
+INDEX VERSION 1.131+D:\HCL\Mode 1 Training\Java\Day 5\.metadata\.plugins\org.eclipse.jdt.core
+911304070.index
+4036418363.index
+2251821304.index
+1971861893.index

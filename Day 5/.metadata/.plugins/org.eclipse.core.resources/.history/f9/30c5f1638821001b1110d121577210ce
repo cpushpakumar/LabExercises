@@ -1,0 +1,14 @@
+package com.services;
+
+public class RunRate {
+	public int usingBufferReader(int r,int o)throws Exception {
+		int runrate;
+		if(o==0) {
+			throw new Exception("NumberFormatexception");
+		}
+		///runrate=r/o;
+		return o;
+		
+	}
+
+}

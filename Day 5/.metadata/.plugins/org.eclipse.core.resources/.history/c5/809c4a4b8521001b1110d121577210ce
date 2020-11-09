@@ -1,0 +1,16 @@
+package com.main;
+
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.util.Scanner;
+
+public class RunRateMain {
+
+	public static void main(String[] args) throws FileNotFoundException {
+		FileReader fr=new FileReader("D:\\HCL\\Mode 1 Training\\Java\\Day 5\\RunsOvers.txt");
+		BufferedReader br=new BufferedReader(fr);
+        
+	}
+
+}
