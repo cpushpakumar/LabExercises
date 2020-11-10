@@ -1,0 +1,29 @@
+package com.hcl;
+public class Calculator {
+public int add(int a, int b){
+return a+b;
+}
+}
+
+package com.main;
+
+import java.util.Scanner;
+
+import com.hcl.Calculator;
+
+public class CalculatorMain {
+
+	public static void main(String[] args) {
+		int num1;
+		int num2;
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Enter first number:");
+		num1 = scanner.nextInt();
+		System.out.println("Enter second number :");
+		num2 = scanner.nextInt();
+		Calculator calculator=new calculator();
+		int number=calculator.add(num1,num2);
+		system.out.println("Addition of"+num1+" "+num2+"is"+number);
+		scanner.close();
+	}
+}
