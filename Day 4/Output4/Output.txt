@@ -1,0 +1,2 @@
+in main(): 
+objA.a = 100
