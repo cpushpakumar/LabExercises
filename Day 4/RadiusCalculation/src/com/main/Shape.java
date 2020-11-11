@@ -9,11 +9,11 @@ public abstract class Shape {
 		super();
 		Shape.name=name;
 	}
-/*
+
 	public static String getName() {
 		return name;
 	}
-*/
+
 	public static void setName(String name) {
 		Shape.name = name;
 	}
